@@ -1,0 +1,32 @@
+.site-header{
+    background-color:hsl(0, 0%, 7%);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.hamburger{
+    width: 40px;
+    height: 40px;
+}
+.hamburger--icon{
+    width: 100%;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.header__logo--text{
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+}
+
+
