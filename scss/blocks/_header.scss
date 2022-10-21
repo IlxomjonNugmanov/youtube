@@ -3,6 +3,7 @@
 }
 
 .header{
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,22 +12,60 @@
     display: flex;
     align-items: center;
 }
-.hamburger{
-    width: 40px;
-    height: 40px;
+.header__logo--wrapper{
+     display: flex;
+     align-items: center;
+     column-gap: 12px;
 }
-.hamburger--icon{
-    width: 100%;
+
+
+.header__center{
+  display: flex;
+  align-items: center;
 }
-.header__logo{
+.header__form{
     display: flex;
     align-items: center;
-    text-decoration: none;
 }
-.header__logo--text{
-    text-decoration: none;
-    font-size: 32px;
-    color: white;
+.header__search--inp{
+    display: inline-block;
+    max-width: 500px;
+    height: 40px;
+    background-color: black;
+    border: none;
+
+}
+.header__search--btn{
+    width: 60px;
+    height: 40px;
+    background-color: rgb(13, 14, 14);
+    border: none;
+    border-radius: 2px;
+
+    img{
+        // width: 100%;
+        height: 100%;
+         border-radius: 2px;
+
+    }
+}
+.header__microPhone{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40px;
+    height: 40px;
+    padding-left: 12px;
+    border-radius: 50%;
+    background-color: rgb(22, 31, 31);
 }
 
 
+
+
+
+.header__right{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
